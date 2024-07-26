@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  color: #D2122E;
+  font-family: "Luckiest Guy";
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url('./bg.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 2px solid #BA0021;
+}
+
+.navbar h1 {
+  color: #BA0021;
+  font-size: 40px;
+}
+
+.navbar .links {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.navbar a:hover {
+  color: #fd5c63;
+  font-size: 22px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.heroes {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-preview p{
+  color: #FFD700;
+}
+
+.main{
+  color:#BA0021;
+  font-size: 30px;
+}
+
+.hero-view h2{
+  font-family: "Luckiest Guy";
+  font-size: 20px;
+  color: #BA0021;
+}
+
+.hero-preview a{
+  text-decoration: none;
+}
+
+.hero-preview a:hover{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hero-view h2 {
+  font-size: 60px;
+}
+
+.hero-view p{
+  font-size: 40px;
+  color: #FFD700;
+  margin-top: 30px;
+}
+
+.hero-view label{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.hero-view input{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.edit-button button{
+  font-size: 40px;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #FFD700;
+  border-style: hidden;
+}
+
+.edit-button button:hover{
+  background-color: #BA0021;
+  color: #FFD700;
+  cursor: pointer;
+  font-size: 45px;
+}
